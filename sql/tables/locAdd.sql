@@ -1,7 +1,7 @@
-USE rmds;
-INSERT INTO location
+USE wowprmds;
+INSERT INTO geoType
 VALUES  (
            /*loc_id (null auto-GENERATE)*/      NULL,
-           /*location name (" ")*/              "Location 1"
+           /*location name (" ")*/              "city"
         );
 

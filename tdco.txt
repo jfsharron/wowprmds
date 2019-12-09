@@ -1,0 +1,26 @@
+|table data creation order|
+
+geo
+geoType
+address
+contact
+parentCo
+locationSub
+supplier
+supplierSub
+freightComp
+remitFreq
+materialSpecies
+materialType
+material
+unit
+covenant
+loadEntryTemp
+loadArchiving
+
+
+
+
+
+
+

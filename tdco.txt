@@ -1,8 +1,6 @@
 |table data creation order|
 
 geo
-geoType
-address
 contact
 parentCo
 locationSub

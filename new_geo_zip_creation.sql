@@ -3,7 +3,6 @@ INSERT INTO geo (
     geo_postal, geo_city, geo_state, geo_country)
 VALUES
 
-
 ('601','Adjuntas','PR','United States'),
 ('602','Aguada','PR','United States'),
 ('603','Aguadilla','PR','United States'),

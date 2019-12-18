@@ -22,8 +22,9 @@ INSERT INTO `wowprmds`.`contact`
 `contact_notes`)
 VALUES
 
-('Sharron', 'Chris', 'csharron@wowpellets.com', 'office',
- '5033976707', 'mobile', '5035561555', NULL,
- NULL, '5033976887', 'mailing', 'PO Box 951',
- NULL, 97018, 'physical', '2305 Second Street',
- NULL,97018,NULL);
+('Hayes', 'Rick', 'rhayes@wowpellets.com', 'office',
+ '5035104565', 'mobile', '5035561553', NULL,
+ NULL, '5035106887', 'mailing', '10 Sunset Ave.',
+ NULL, 97106, 'physical', '10 Sunset Ave.',
+ NULL,97106,NULL);
+A

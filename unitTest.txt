@@ -1,0 +1,4 @@
+SELECT `loadEntryTemp`.`loadEntry_loadNo`, `loadEntryTemp`.`loadEntry_covenant`, `covenant`.`covenant_id`, `covenant`.`covenant_freightUnit`, `unit`.`unit_id`, `unit`.`unit_desc`
+FROM `covenant`
+    RIGHT JOIN `loadEntryTemp` ON `loadEntryTemp`.`loadEntry_covenant` = `covenant`.`covenant_id`
+    LEFT JOIN `unit` ON `covenant`.`covenant_matUnit` = `unit`.`unit_id`

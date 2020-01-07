@@ -1,0 +1,12 @@
+SELECT `loadEntryTemp`.`loadEntry_covenant`, `covenant`.`covenant_id`, `covenant`.`covenant_covenantNo`, `covenant`.`covenant_parentCo`, `parentCo`.`parentCo_id`, `parentCo`.`parentCo_name`, `covenant`.`covenant_supplierSub`, `supplierSub`.`supplierSub_id`, `supplierSub`.`supplierSub_name`, `supplierSub`.`supplierSub_parent`, `supplier`.`supplier_id`, `supplier`.`supplier_name`, `loadEntryTemp`.`loadEntry_loadNo`, `covenant`.`covenant_recLoc`, `locationSub`.`locationSub_id`, `locationSub`.`locationSub_name`, `loadEntryTemp`.`loadEntry_deliveryDate`, `loadEntryTemp`.`loadEntry_deliveryTime`, `loadEntryTemp`.`loadEntry_grossWeight`, `loadEntryTemp`.`loadEntry_tareWeight`, `loadEntryTemp`.`loadEntry_moisture`, `covenant`.`covenant_material`, `material`.`material_id`, `material`.`material_species`, `material`.`material_type`, `materialSpecies`.`materialSpecies_id`, `materialSpecies`.`materialSpecies_desc`, `materialType`.`materialType_id`, `materialType`.`materialType_desc`, `covenant`.`covenant_matPrice`, `covenant`.`covenant_matUnit`, `unit`.`unit_id`, `unit`.`unit_desc`, `covenant`.`covenant_freightCompany`, `freightComp`.`freightComp_id`, `freightComp`.`freightComp_name`, `covenant`.`covenant_arbFreightRate`, `covenant`.`covenant_freightRate`, `covenant`.`covenant_freightUnit`, `unit`.`unit_id`, `unit`.`unit_desc`, `covenant`.`covenant_freightSurCharge`, `covenant`.`covenant_freightScUnit`, `unit`.`unit_id`, `unit`.`unit_desc`, `loadEntryTemp`.`loadEntry_notes`
+FROM `covenant`
+    RIGHT JOIN `loadEntryTemp` ON `loadEntryTemp`.`loadEntry_covenant` = `covenant`.`covenant_id`
+    LEFT JOIN `freightComp` ON `covenant`.`covenant_freightCompany` = `freightComp`.`freightComp_id`
+    LEFT JOIN `unit` ON `covenant`.`covenant_matUnit` = `unit`.`unit_id`
+    LEFT JOIN `locationSub` ON `covenant`.`covenant_recLoc` = `locationSub`.`locationSub_id`
+    LEFT JOIN `material` ON `covenant`.`covenant_material` = `material`.`material_id`
+    LEFT JOIN `parentCo` ON `covenant`.`covenant_parentCo` = `parentCo`.`parentCo_id`
+    LEFT JOIN `supplierSub` ON `covenant`.`covenant_supplierSub` = `supplierSub`.`supplierSub_id`
+    LEFT JOIN `supplier` ON `supplierSub`.`supplierSub_parent` = `supplier`.`supplier_id`
+    LEFT JOIN `materialSpecies` ON `material`.`material_species` = `materialSpecies`.`materialSpecies_id`
+    LEFT JOIN `materialType` ON `material`.`material_type` = `materialType`.`materialType_id`

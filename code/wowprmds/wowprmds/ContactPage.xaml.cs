@@ -31,5 +31,16 @@ namespace wowprmds
         {
             this.Frame.Navigate(typeof(MainPage));
         }
+
+        private void SearchButton_Click(object sender, RoutedEventArgs e)
+        {
+            SearchRelativePanel.Visibility = Visibility.Visible;
+        }
+
+        private void SearchResultsButton_Click(object sender, RoutedEventArgs e)
+        {
+            string x = ResultFirstNameTextBox.Text; ;
+            ResultContactIdTextBox.Text = (Common.Select(x));
+        }
     }
 }

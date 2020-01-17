@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\jfsha\source\repos\wowprmds\code\wowprmds\wowprmds\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-01-13T19:21:28.505</Modified>
+      <Modified>2020-01-17T01:17:48.060</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\jfsha\source\repos\wowprmds\code\wowprmds\wowprmds\bin\x64\Debug\wowprmds.exe">
       <PackagePath>entrypoint\wowprmds.exe</PackagePath>
-      <Modified>2020-01-13T19:21:28.062</Modified>
+      <Modified>2020-01-17T01:17:47.647</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -86,19 +86,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jfsha\source\repos\wowprmds\code\wowprmds\wowprmds\bin\x64\Debug\wowprmds.xr.xml">
       <PackagePath>wowprmds.xr.xml</PackagePath>
-      <Modified>2020-01-13T19:21:27.887</Modified>
+      <Modified>2020-01-16T18:18:57.140</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jfsha\source\repos\wowprmds\code\wowprmds\wowprmds\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-01-13T19:19:15.610</Modified>
+      <Modified>2020-01-17T01:17:47.475</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jfsha\source\repos\wowprmds\code\wowprmds\wowprmds\bin\x64\Debug\ContactPage.xbf">
       <PackagePath>ContactPage.xbf</PackagePath>
-      <Modified>2020-01-13T19:21:27.892</Modified>
+      <Modified>2020-01-17T01:17:47.474</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jfsha\source\repos\wowprmds\code\wowprmds\wowprmds\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-01-13T19:19:15.611</Modified>
+      <Modified>2020-01-17T01:17:47.475</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -106,11 +106,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jfsha\source\repos\wowprmds\code\wowprmds\wowprmds\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-01-13T17:34:51.171</Modified>
+      <Modified>2020-01-16T23:10:12.090</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jfsha\source\repos\wowprmds\code\wowprmds\wowprmds\bin\x64\Debug\Core\wowprmds.exe">
       <PackagePath>wowprmds.exe</PackagePath>
-      <Modified>2020-01-13T19:21:28.500</Modified>
+      <Modified>2020-01-17T01:17:48.056</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

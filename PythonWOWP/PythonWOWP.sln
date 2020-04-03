@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1062
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonWOWP", "PythonWOWP\PythonWOWP.pyproj", "{4056AD91-CBCF-4BF8-AA96-BB91C8265C2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4056AD91-CBCF-4BF8-AA96-BB91C8265C2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4056AD91-CBCF-4BF8-AA96-BB91C8265C2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {924B907B-D7DC-46C7-8BAC-7C5D14A99670}
+	EndGlobalSection
+EndGlobal

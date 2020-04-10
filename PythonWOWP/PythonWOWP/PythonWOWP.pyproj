@@ -21,8 +21,14 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="connection.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modfuncts.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PythonWOWP.py" />
-    <Compile Include="Supplier.py">
+    <Compile Include="supplier.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

@@ -10,6 +10,7 @@ class DBHelper:
     MySQL connection parameters and query functions.
     """
 
+    global mydb
     #  connection parameters
     mydb = mysql.connector.connect(
         host = '192.168.2.107',
@@ -30,8 +31,12 @@ class DBHelper:
         query = "SELECT " + field + " FROM " + table + " " + opt
         mycursor.execute(query)
         records = mycursor.fetchall()
-        return records      
+        return records
 
+    def update(field, table, newValue, opt = ''):
+        query = "UPDATE " + table + " SET " + field + " = " + newValue + " " + opt
+        mycursor.execute(query)
+        mydb.commit()
 
 
 

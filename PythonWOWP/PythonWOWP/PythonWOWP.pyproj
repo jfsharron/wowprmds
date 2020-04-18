@@ -24,6 +24,9 @@
     <Compile Include="connection.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="contact.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="modfuncts.py">
       <SubType>Code</SubType>
     </Compile>
